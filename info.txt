@@ -1,0 +1,27 @@
+Carga por defecto:
+	Fichero plantilla .MD con todo el archivo completo (template.md)
+		- Valores de reemplazo {{body}} buscarán un archivo de plantilla interna con ese nombre en directorio y subdirectorios (body.json)
+		
+	Cada archivo de reemplazo tendrá la siguiente estructura
+		- Variables: []
+		- Template: "" // Formato markdown
+		
+	Cada variable contendrá:
+		- Type: "" // Soportado: default, h1, h2, h3, h4, h5, h6, hyperlink (external), anchor (internal)
+		- DefaultValue: ""
+		- AvailableValues: [] // Si se rellena es combo
+		
+Trabajo por directorios con estructura de subcarpetas
+F2 para renombrar archivos como VSCode
+
+Carga de archivo guardado:
+
+Mismo formato que por defecto y añadido:
+	- Por variable:
+		- Value: "" // Valor seleccionado
+
+Guardado:
+	- Guardar en archivo nuevo de plantilla, nunca el base
+
+Generación de doc:
+	- En otro directorio
