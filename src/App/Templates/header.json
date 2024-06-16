@@ -1,0 +1,26 @@
+{
+  "Code": "header",
+  "Title": "Header last name",
+  "ContentFileName": "header.md",
+  "Order": 1,
+  "Variables": [
+    {
+      "Code": "Title",
+      "Type": "default",
+      "DefaultValue": "The last name of the user",
+      "AvailableValues": [],
+      "Title": "",
+      "Value": "",
+      "Values": []
+    },
+    {
+      "Code": "ControllerName",
+      "Type": "default",
+      "DefaultValue": "DoeController",
+      "AvailableValues": [],
+      "Title": "",
+      "Value": "",
+      "Values": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Code": "enum_codes",
+  "Title": "Header last name",
+  "ContentFileName": "header.md",
+  "Order": 3,
+  "Variables": [
+    {
+      "Code": "Title",
+      "Type": "default",
+      "DefaultValue": "Enum name",
+      "AvailableValues": [],
+      "Title": "",
+      "Value": "",
+      "Values": []
+    },
+    {
+      "Code": "Type",
+      "Type": "default",
+      "DefaultValue": "EnumStatus",
+      "AvailableValues": [ "A", "X" ],
+      "Title": "",
+      "Value": "",
+      "Values": []
+    },
+    {
+      "Code": "Values",
+      "Type": "multiple",
+      "DefaultValue": "",
+      "AvailableValues": [],
+      "Title": "",
+      "Value": "",
+      "Values": []
+    }
+  ]
+}
