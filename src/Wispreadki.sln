@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App/Wispreadki.App.csproj", "{3C82F2A1-97FC-4857-A879-143C7803AD6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wispreadki.App", "App\Wispreadki.App.csproj", "{3C82F2A1-97FC-4857-A879-143C7803AD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wispreadki.Logic", "Wispreadki.Logic\Wispreadki.Logic.csproj", "{7D09AF69-47B0-4E1C-9FEC-650586CFC968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3C82F2A1-97FC-4857-A879-143C7803AD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C82F2A1-97FC-4857-A879-143C7803AD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C82F2A1-97FC-4857-A879-143C7803AD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D09AF69-47B0-4E1C-9FEC-650586CFC968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D09AF69-47B0-4E1C-9FEC-650586CFC968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D09AF69-47B0-4E1C-9FEC-650586CFC968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D09AF69-47B0-4E1C-9FEC-650586CFC968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
